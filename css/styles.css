@@ -1,0 +1,133 @@
+
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+  font-size: 5rem;
+  width: 40%;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #4b8e8d;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: 'Cutive Mono', monospace;
+  color:#4b8e8d;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  color:#396362;
+}
+a{
+  color:#396362;
+  font-family: 'Cutive Mono', monospace;
+  text-decoration: none;
+  margin-left: 30px;
+
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  color: #40514E;
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  margin: 50px auto;
+}
+.top-container{
+  background-color: #e6f8f9;
+  position: relative;
+  padding-top: 200px;
+}
+
+.top-cloud{
+  position: absolute;
+  top:0;
+  right: 250px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  top: 300px;
+}
+
+.mountain{
+  justify-content: center;
+}
+
+.middle-container{
+  padding-top: 100px;
+  position: relative;
+}
+.profile{
+  padding-bottom: 20px;
+}
+.bottom-container{
+  position: relative;
+  background-color: #66BFBF;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.profile{
+  width:50%;
+  margin: auto;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.cook-img{
+  float: left;
+  margin-right: 30px;
+}
+.paint-img{
+  float: right;
+  margin-left: 30px;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #7ed6d6;
+  background-image: -webkit-linear-gradient(top, #7ed6d6, #139e9e);
+  background-image: -moz-linear-gradient(top, #7ed6d6, #139e9e);
+  background-image: -ms-linear-gradient(top, #7ed6d6, #139e9e);
+  background-image: -o-linear-gradient(top, #7ed6d6, #139e9e);
+  background-image: linear-gradient(to bottom, #7ed6d6, #139e9e);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: 'Cutive Mono', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7fd0ff;
+  text-decoration: none;
+}
+
+
+
+.signature{
+  margin-top: 35px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
